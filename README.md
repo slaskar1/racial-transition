@@ -85,4 +85,4 @@ We can see in both 1970 and 2020, the most percentage Black population is around
 
 # Final Project Website
 
-Please click here [Final Project](http.google.com)
+Please click here [Final Project](https://slaskar1.github.io/racial-transition/)
