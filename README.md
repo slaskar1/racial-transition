@@ -65,6 +65,8 @@ Those counties were flagged as “went through a Racial transition” who had pe
 
 ![alt text](<Repository Images/Racial Trnaisiton Map.png>)
 
+Projection original shape file data/CRS  wasNAD 83 EPSG 4269. The projection for the final data/CRS is also NAD 83 EPSG 4269 as the Map is on the whole US.
+
 # The Final Map
 
 The Final Map consisted of two pages. The first page consists of the maps of Percentage Black population 1970 and Percentage Black Population in 2020. The second page consists of the Racial Transition. If the county went through a racial transition, then it is blue, if not then its green.
