@@ -21,7 +21,7 @@ US Race Data: US Census Bureau Race Data: [Race Data](https://www.census.gov/top
 
 Over the years, racial demographics have changed in the US. As I work with racial data, I found it useful to create a map and see how much the percentage of Black Population have changed from 1970-2020. The Census has data from 1970 and that is as far as I could go. I created 3 maps. The first one shows the percentage of the Black Population in 1970 in US counties, the second one shows the Percentage Black Population in 2020 and the third one shows which US counties experienced racial transition. I will explain how I defined Racial Transition in the mapmaking process. My supervisor, I and her previous RA have collected race data from census for different years, recoded them and appended them. We also merged them with public finance data from [The Government Finance Database](https://willamette.edu/mba/research-impact/public-datasets/index.html). However, we don’t need public finance data for this project. I am using the final merged dataset from my supervisor for the race data.
 
-I have created 3 maps and the purpose of them is to show the change in the Percentage Black Population in 2020 compared to 1970. I work with racial data and currently I am working on a project with my supervisor that looks into the changes in public finance (especially the revenue side) in relation to the changes in racial demographics.  So, I thought it would be really useful to visually map the changes in racial demographics (Change in percentage Black Population for this Mapping project).
+I have created 3 maps and the purpose of them is to show the change in the Percentage Black Population in 2020 compared to 1970. I work with racial data and currently I am working on a project with my supervisor that looks into the changes in public finance (especially the revenue side) in relation to the changes in racial demographics.  So, I thought it would be really useful to visually map the changes in racial demographics (Change in percentage Black Population for this Mapping project). The race dataset can be found in my repository data folder [Racial Data](https://github.com/slaskar1/racial-transition/tree/main/Racial%20Data)
 
 # Creating the Maps
 
@@ -67,7 +67,9 @@ Those counties were flagged as “went through a Racial transition” who had pe
 
 # The Final Map
 
-The final Map consisted of two pages. The first page consists of the maps of Percentage Black population 1970 and Percentage Black Population in 2020. The second page consists of the Racial Transition. If the county went through a racial transition, then it is blue, if not then its green.
+The Final Map consisted of two pages. The first page consists of the maps of Percentage Black population 1970 and Percentage Black Population in 2020. The second page consists of the Racial Transition. If the county went through a racial transition, then it is blue, if not then its green.
+
+Map of the US other than Alaska were pasted in the Print Layouts first and then Map of Alaska were were pasted above as a second Map. This is to provide a zoomed static Map and understand the Map colors better.
 
 ![alt text](<Images/Racial Transition-600dpi.png>)
 
@@ -76,6 +78,7 @@ The final Map consisted of two pages. The first page consists of the maps of Per
 # Map Summary
 
 The first Map shows the Percentage Black Population in 1970 in the US counties. The second Map shows the Percentage Black Population in 2020 in the US counties. The third Map shows the racial transition in the US counties. Racial Transition is defined as having percentage Black population below state median in 1970 but the change in percentage Black population from 1970 to 2020 for the same county is greater that the state median change from 1970-2020. The counties that went through a racial transition were symbolized as blue, if not then its green. 
+
 We can see in both 1970 and 2020, the most percentage Black population is around the border of Atlantic Ocean and the Gulf of Mexico. Among others, we can see that some counties in Minnesota, some counties in North Dakota, some counties in Texas and some counties in Nevada went through a racial transition.
 
 # Final Project Website
